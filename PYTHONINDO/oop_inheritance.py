@@ -7,7 +7,7 @@ class Induk:
     def parent_method(self):
         print('memanggil metode induk')
     
-    def set_attr(Self, attr):
+    def set_attr(self, attr):
         Induk.parent_attr = attr
     
     def get_attr(self):
