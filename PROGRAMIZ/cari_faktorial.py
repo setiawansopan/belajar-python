@@ -1,4 +1,4 @@
-num = 7
+num = int(input('bilangan : '))
 
 faktorial = 1
 

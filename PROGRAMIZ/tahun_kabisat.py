@@ -1,4 +1,4 @@
-tahun = 2000
+tahun = int(input('masukkan tahun : '))
 
 if (tahun % 4) == 0:
     if(tahun % 100) == 0:
