@@ -1,4 +1,5 @@
-from math import*
+from math import radians, sin, cos, tan
+
 print ("menentukan nilai sin dan cos dari 0,30,60 - 360 derajat")
 print ("sudut","\t","sin","\t","cos","\t","tan")
 for i in range (0,361,30):
