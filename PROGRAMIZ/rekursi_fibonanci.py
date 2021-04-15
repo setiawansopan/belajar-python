@@ -4,7 +4,7 @@ def deret_fibo(n):
     if n <= 1:
         return n
     else:
-        return(deret_fibo(n-1) + deret_fibo(n-2))
+        return(deret_fibo(n-2) + deret_fibo(n-1))
     
 jumlah_deret = int(input('jumlah deret : '))
 
