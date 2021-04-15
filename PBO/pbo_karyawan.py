@@ -21,4 +21,6 @@ karyawan2 = Karyawan('Umi Khoiriyah', 6000000)
 #menampilkan objek dalam kelas
 karyawan1.tampilkan_profil()
 karyawan2.tampilkan_profil()
+
+#tampilkan jumlah
 karyawan1.tampilkan_jumlah()
