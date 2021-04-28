@@ -2,6 +2,7 @@ class Karyawan:
     '''kelas karyawan'''
     jumlah_karyawan = 0
 
+    #konstruktor / init
     def __init__(self, nama, gaji):
         self.nama = nama
         self.gaji = gaji
