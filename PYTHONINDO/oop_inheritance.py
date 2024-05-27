@@ -1,3 +1,4 @@
+#KELAS INDUK
 class Induk:
     parent_attr = 100
 
@@ -13,6 +14,7 @@ class Induk:
     def get_attr(self):
         print('Atribut induk : ', Induk.parent_attr)
 
+#KELAS ANAK
 class Anak(Induk):
     def __init__(self):
         print('memanggil konstruktor anak')
@@ -20,9 +22,11 @@ class Anak(Induk):
     def child_method(self):
         print('memanggil metode anak')
 
+#INSTANSIASI OBJEK
 c = Anak()
-c.child_method()
 
+#PEMANGGILAN FUNGSI
+c.child_method()
 c.parent_method()
 c.set_attr(200)
 c.get_attr()
